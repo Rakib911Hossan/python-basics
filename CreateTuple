@@ -1,0 +1,26 @@
+myList=[1,"JUST",2.5]   #List
+print(myList)
+
+myTuple=(1,"JUST",2.5)  #Tuple
+print(myTuple[1:3]) #prints element from index 1 to 2
+
+list2=[2]   #list with single element
+print(list2)
+
+tuple2=(2)  #this is not a tuple. Just an int
+tuple2=(2,) #single element tuple should end with comma
+print(tuple2)
+
+#loop within tuple
+for i in myTuple[:2]:
+    print("Element in tuple",i)
+# loop using range on tuple
+for i in range(3):
+    print(f"Element in index {i} ={myTuple[i]}")
+
+print("Length of tuple",len(myTuple))
+
+myList.append("Jubayer")
+print(myList)
+#myTuple.append("Jubayer") xxtuple can't be changedxx
+
